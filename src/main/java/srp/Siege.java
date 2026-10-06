@@ -4,15 +4,21 @@ public class Siege {
     private boolean disponible;
     private PassagerType type;
 
-    public boolean getDisponible() {
-        return disponible;
-    }
+    public boolean hasBeenAssigned(PassagerType passagerType){
 
-    public void setDisponible(boolean nouvelleDisponibilite) {
-        disponible = nouvelleDisponibilite;
-    }
+        if(!disponible){
+            return false;
+        }
 
-    public PassagerType getType() {
-        return type;
+        if(type != passagerType){
+            return false;
+        }
+
+        disponible = false;
+        return true;
+
+
     }
 }
+
+

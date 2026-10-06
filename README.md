@@ -28,9 +28,9 @@ Cette interface est aussi utilisé dans deux classes:
 
 ## SRP
 
-La classe `AssignateurDeSiegeSimple` est en charge de l'assignation des sièges dans un avion.
+La classe `GestionnaireDeVol` est en charge de l'assignation des sièges dans un avion.
 Cette classe a trop de responsabilités et ne respecte pas le SRP.
 
-1. Identifier les nombreuses responsabilités actuelles de la classe `AssignateurDeSiegeSimple`
-2. Identifier la seule responsabilité que devrait avoir la classe `AssignateurDeSiegeSimple`.
+1. Identifier les nombreuses responsabilités actuelles de la classe `GestionnaireDeVol`
+2. Identifier la seule responsabilité que devrait avoir la classe `GestionnaireDeVol`.
 3. Corriger la situation.
